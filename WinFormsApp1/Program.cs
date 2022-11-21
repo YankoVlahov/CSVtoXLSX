@@ -1,4 +1,4 @@
-namespace WinFormsApp1
+namespace CSVtoXLSX
 {
     internal static class Program
     {
