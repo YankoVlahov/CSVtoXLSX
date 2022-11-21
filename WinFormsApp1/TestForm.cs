@@ -11,7 +11,7 @@ namespace CSVtoXLSX
 
         private void button1_Click(object sender, EventArgs e  )
         {
-            string path = @"C:\Users\YankoVlahov\Desktop\MovementsExport_2022-09-30_2022-10-07.csv";
+            string path = @"some string here ";
             // Create LoadOptions for CSV file
             WorkBook workbook = WorkBook.LoadCSV(path, fileFormat: ExcelFileFormat.XLSX, ListDelimiter: ";");
             //WorkSheet ws = workbook.DefaultWorkSheet;
